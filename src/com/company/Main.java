@@ -96,6 +96,13 @@ public class Main {
         while (a < 7);
     // Exemple de metode
 
+
+    //Exemplu de string
+        String[] fructe={"mere","pere","banane","prune"};
+        for(String str:fructe){
+            System.out.println(str);
+        }
+
     // Exemple cu diferite tipuri de operatori
 
         // Operatori aritmetici
