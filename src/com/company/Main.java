@@ -3,7 +3,15 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-        // Exemple de variabile
+    //Exemple de comentarii
+        // Un tip de comentariu
+        System.out.println("Salutare!");
+
+        /* Al doilea tip de comentarii ce poate fi utilizat
+        cind avem mai multe linii de comentat  */
+        System.out.println("Sa aveti o buna dispozitie");
+
+    // Exemple de variabile
         int iner = 10;
         long l = 20L;
         short s = 12480;
@@ -77,5 +85,15 @@ public class Main {
             a++;
         }
         while (a < 7);
+    // Exemple de metode
+
+    // Exemple cu diferite tipuri de operatori
+
+        // Operatori aritmetici
+
+        // Operatori de comparere
+
+        // Operatori logici
+
     }
 }
