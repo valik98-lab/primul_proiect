@@ -21,6 +21,15 @@ public class Main {
         boolean b = true;
         byte bit = 22;
 
+    // Alte exemple de variabile
+        int student = 19;
+        long  funie=100L;
+        char A = 'A';
+        char E = '/';
+        double test=20.5d;
+        boolean prezent = true;
+        boolean absent=false;
+
         //Exemple de conditionale
         // Conditia if
         if (24 > 10) {
