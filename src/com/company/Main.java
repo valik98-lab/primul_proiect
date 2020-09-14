@@ -94,8 +94,6 @@ public class Main {
             a++;
         }
         while (a < 7);
-    // Exemple de metode
-
 
     //Exemplu de string
         String[] fructe={"mere","pere","banane","prune"};
@@ -106,10 +104,43 @@ public class Main {
     // Exemple cu diferite tipuri de operatori
 
         // Operatori aritmetici
+        int nrA = 5;
+        int nrB = 10;
+        int nrC = 15;
+
+        System.out.println("Rezultatul adunării nrA + b = " + (nrA + nrB ));
+        System.out.println("Rezultatul scaderii nrA - b = " + (nrA - nrB ));
+        System.out.println("Rezutatul inmultirii nrA* b = " + (nrA * nrB ));
+        System.out.println("Rezultatul impartirii nrB  / nrA = " + (nrB  /nrA));
+        System.out.println("Rezultatul modulului nrB % nrA = " + (nrB  % nrA));
+        System.out.println("Rezultatul modlului nrC % nrA = " + (nrC % nrA));
+        System.out.println("Rezultatul incrementarii nrA++ = " + (nrA++));
+        System.out.println("Rezultatul decrementarii nrB -- = " + (nrA--));
+
 
         // Operatori de comparere
+        int p_nr = 10;
+        int d_nr = 20;
+        System.out.println("Rezultatul egalitatii p_nr == d_nr = " + (p_nr == d_nr) );
+        System.out.println("Rezultatul inegalitatii p_nr!= d_nr= " + (p_nr!= d_nr) );
+        System.out.println("Compararea numerelor cu semnul mai mare p_nr > d_nr = " + (p_nr > d_nr) );
+        System.out.println("Compararea numerelor cu semnul mai mic  p_nr< d_nr= " + (p_nr< d_nr) );
+        System.out.println("Mai mare sau egal d_nr>= p_nr = " + (d_nr >= p_nr) );
+        System.out.println("Mai mic sau egal d_nr <= p_nr= " + (d_nr <= p_nr) );
 
         // Operatori logici
+            // && Logical and
+        int h = 5;
+        System.out.println( h > 3 && h< 10);
+
+            // || Logical or
+        int o = 10;
+        System.out.println(o > 8 || o < 9);
+
+            // ! Logical not
+        int m = 5;
+        System.out.println(!(m > 3 && m < 10));
+
 
     }
 }
